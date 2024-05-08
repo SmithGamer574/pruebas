@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Marvel';
+    src: url('./Fuentes/Marvel-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./Fuentes/Montserrat-Light.otf');
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 2%;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+#title {
+    background-color: rgb(185, 2, 2);
+    color: white;
+    font-family: helvetica;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Trebuchet MS';
+}
+
+
+#Descripcion-América {
+    border: solid 2px;
+    background-color: coral;
+    border-radius: 3px;
+}
+
+.América {
+    border-radius: 70px 0 70px 0;
+}
+
+#infoComics {
+    text-align: center;
+    margin: 0;
+    font-family: Arial;
+    color: white;
+    background-color: rgb(185, 2, 2);
+}
+
+#UCM {
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    border: solid 2px;
+    padding: 2px 3px 2px 3px;
+}
+
+#CapAmerica {
+    text-align: center;
+    font-family: Marvel;
+    background-color:rgb(185, 2, 2);
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 3px;
+    border-bottom: solid 2px gray;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo-img {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    padding: 0 10px 0 0;
+}
+
+nav a:hover {
+    color: red;
+}
